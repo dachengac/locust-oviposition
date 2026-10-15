@@ -1,0 +1,140 @@
+{
+  "ok": true,
+  "synthetic_model": true,
+  "scenarios": [
+    {
+      "display_scale_percent": 100,
+      "window": [
+        900,
+        560
+      ],
+      "start_button": [
+        130,
+        196,
+        300,
+        231
+      ],
+      "sidebar_scrollbar_reaches_settings": true
+    },
+    {
+      "display_scale_percent": 100,
+      "window": [
+        1000,
+        600
+      ],
+      "start_button": [
+        156,
+        222,
+        326,
+        257
+      ],
+      "sidebar_scrollbar_reaches_settings": true
+    },
+    {
+      "display_scale_percent": 100,
+      "window": [
+        1180,
+        640
+      ],
+      "start_button": [
+        182,
+        248,
+        352,
+        283
+      ],
+      "sidebar_scrollbar_reaches_settings": true
+    },
+    {
+      "display_scale_percent": 125,
+      "window": [
+        900,
+        560
+      ],
+      "start_button": [
+        208,
+        283,
+        414,
+        322
+      ],
+      "sidebar_scrollbar_reaches_settings": true
+    },
+    {
+      "display_scale_percent": 125,
+      "window": [
+        1000,
+        600
+      ],
+      "start_button": [
+        234,
+        309,
+        440,
+        348
+      ],
+      "sidebar_scrollbar_reaches_settings": true
+    },
+    {
+      "display_scale_percent": 125,
+      "window": [
+        1180,
+        640
+      ],
+      "start_button": [
+        52,
+        127,
+        258,
+        166
+      ],
+      "sidebar_scrollbar_reaches_settings": true
+    },
+    {
+      "display_scale_percent": 150,
+      "window": [
+        900,
+        560
+      ],
+      "start_button": [
+        52,
+        135,
+        294,
+        178
+      ],
+      "sidebar_scrollbar_reaches_settings": true
+    },
+    {
+      "display_scale_percent": 150,
+      "window": [
+        1000,
+        600
+      ],
+      "start_button": [
+        78,
+        161,
+        320,
+        204
+      ],
+      "sidebar_scrollbar_reaches_settings": true
+    },
+    {
+      "display_scale_percent": 150,
+      "window": [
+        1180,
+        640
+      ],
+      "start_button": [
+        104,
+        187,
+        346,
+        230
+      ],
+      "sidebar_scrollbar_reaches_settings": true
+    }
+  ],
+  "checks": [
+    "start-visible",
+    "stop-visible",
+    "export-visible",
+    "progress-visible",
+    "settings-scrollable",
+    "F5-bound"
+  ]
+}

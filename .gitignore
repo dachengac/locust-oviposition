@@ -1,0 +1,43 @@
+# 数据与产物
+video/
+videos/
+frames/
+dataset/
+labeled*/
+track_cache*/
+runs/
+logs/
+clips*/
+preannot*/
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# 模型权重
+*.pt
+*.pkl
+
+# 结果
+results*.csv
+group_stats*
+*.png
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+env/
+.venv-*/
+build/
+dist/
+data/
+assets/original/
+assets/yolo-config/
+assets/mpl-config/
+Ultralytics/
+behaviorlab-error.log
+models/*.behavior.zip
+*.onnx
+!tests/fixtures/*.onnx

@@ -28,11 +28,11 @@ import gradio as gr
 # 复用已验证的核心逻辑
 sys.path.insert(0, str(Path(__file__).parent))
 try:
-    from detect_oviposition import (extract_tracks, compute_speed,
+    from scripts.detect_oviposition import (extract_tracks, compute_speed,
                                     adaptive_threshold, find_still_periods,
                                     stitch_segments, fmt_hms)
 except ImportError as e:
-    raise SystemExit(f"找不到 detect_oviposition.py，请放在同一目录：{e}")
+    raise SystemExit(f"无法加载 scripts/detect_oviposition.py：{e}")
 
 import numpy as np
 from ultralytics import YOLO

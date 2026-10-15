@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "checks": [
+    "video-preview",
+    "background-batch-analysis",
+    "timeline",
+    "event-table",
+    "review",
+    "project-save-open",
+    "csv-export"
+  ],
+  "synthetic_input": true
+}

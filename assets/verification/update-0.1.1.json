@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "model_count": 1,
+  "errors": [],
+  "window": [
+    1220,
+    840
+  ],
+  "preview": [
+    894,
+    217
+  ],
+  "table": [
+    860,
+    171
+  ],
+  "training_dependencies_loaded": false,
+  "prediction_count": 0
+}

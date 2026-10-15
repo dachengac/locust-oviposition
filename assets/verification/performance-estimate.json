@@ -1,0 +1,27 @@
+{
+  "benchmark": "YOLO11s, CPU, synthetic 854x480 frame, model input 640x640",
+  "samples": 30,
+  "opencv_threads": 24,
+  "model_load_seconds": 0.1345826000906527,
+  "seconds_per_sample_mean": 0.17761546334562203,
+  "seconds_per_sample_median": 0.17184399999678135,
+  "model_only_minutes_for_1h_video_at_1fps": 10.656927800737321,
+  "peak_working_set_MB": 266.436608,
+  "working_set_MB": 246.755328,
+  "peak_committed_MB": 1023.623168,
+  "cache_estimates": [
+    {
+      "video_hours": 1,
+      "sample_fps": 1,
+      "animals": 2,
+      "estimated_json_cache_MB": 0.673509
+    },
+    {
+      "video_hours": 1,
+      "sample_fps": 1,
+      "animals": 10,
+      "estimated_json_cache_MB": 2.882285
+    }
+  ],
+  "limitation": "Synthetic inference only: excludes video hashing, decoding, tracking, temporal analysis and GUI. Cache sizes are estimates."
+}

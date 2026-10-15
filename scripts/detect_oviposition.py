@@ -27,7 +27,6 @@ from pathlib import Path
 
 import cv2
 import numpy as np
-from ultralytics import YOLO
 
 
 DEVICE = None    # 由 main() 设置
@@ -423,6 +422,7 @@ def compare_with_truth(rows, stages_csv):
 
 
 def main():
+    from ultralytics import YOLO
     ap = argparse.ArgumentParser(description="时序分析识别产卵时段")
     ap.add_argument("--weights", required=True)
     ap.add_argument("--video", help="单个视频路径")
