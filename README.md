@@ -10,7 +10,9 @@
 
 ## Windows 桌面软件（BehaviorLab）
 
-进入 [Releases](https://github.com/dachengac/locust-oviposition/releases)，找到 **BehaviorLab 0.1.1**，在 Assets 中选择：
+**当前状态：桌面版源码和说明已上传；0.1.1 下载附件尚未上传完成，发布草稿已准备。以下文件表为待发布清单。**
+
+附件发布后，进入 [Releases](https://github.com/dachengac/locust-oviposition/releases)，找到 **BehaviorLab 0.1.1**，在 Assets 中选择：
 
 | 文件 | 用途 | 下载大小（约） |
 |---|---|---:|
